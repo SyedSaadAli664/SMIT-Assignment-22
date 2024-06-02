@@ -1,0 +1,135 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	font-family: poppins;
+}
+/* @font-face {
+    font-family: digital-7;
+    src: url(./Fonts/digital-7\ \(mono\).ttf);
+}  */
+
+.allOverContainer{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(246, 246, 246); 
+}
+
+.container { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 500px; 
+	height: 350px; 
+	background-color: rgb(246, 246, 246); 
+	/* background-color: white; */
+	border-radius: 20px;
+	box-shadow: 0px 5px 30px rgb(195, 195, 195);
+} 
+
+h1 { 
+	color: #00ca97; 
+	text-align: center; 
+    font-size: 50px;
+	margin-bottom: 20px;
+} 
+
+.digit { 
+    /* font-family: digital-7; */
+	font-family: "Chivo Mono", monospace;
+	padding: 10px 0px;
+    font-size: 50px; 
+	color: #fff; 
+	color: black;
+} 
+
+.txt { 
+	font-size: 20px; 
+	/* color: #fffcd6;  */
+	color: rgb(71, 71, 71);
+	font-family: "Chivo Mono", monospace;
+} 
+
+#buttons { 
+	margin-top: 50px; 
+} 
+
+.btnNotActive { 
+	width: 100px; 
+	padding: 10px 10px; 
+	margin: 0px 15px; 
+	border: none;
+	cursor: pointer; 
+	font-size: 22px;
+	transition: 0.5s; 
+	color: black; 
+	background-color: white;
+	font-weight: 500; 
+	border-radius: 8px;
+	box-shadow: 0px 3px 15px rgb(195, 195, 195);
+} 
+
+.btnActive { 
+	width: 100px; 
+	padding: 10px 10px; 
+	margin: 0px 15px; 
+	border: none;
+	cursor: pointer; 
+	font-size: 22px;
+	transition: 0.5s; 
+	color: white; 
+	background-color: rgb(95, 255, 51);
+	font-weight: bold; 
+	border-radius: 8px;
+	box-shadow: 0px 3px 15px rgb(162, 255, 122);
+} 
+
+.btnActiveReset{
+	width: 100px; 
+	padding: 10px 10px; 
+	margin: 0px 15px; 
+	border: none;
+	cursor: pointer; 
+	font-size: 22px;
+	transition: 0.5s; 
+	color: white; 
+	background-color: rgb(255, 51, 51);
+	font-weight: bold; 
+	border-radius: 8px;
+	box-shadow: 0px 3px 15px rgb(255, 148, 148);
+}
+
+.btnStopActive{
+	width: 100px; 
+	padding: 10px 10px; 
+	margin: 0px 15px; 
+	border: none;
+	cursor: pointer; 
+	font-size: 22px;
+	transition: 0.5s; 
+	color: white; 
+	background-color: rgb(51, 163, 255);
+	font-weight: bold; 
+	border-radius: 8px;
+	box-shadow: 0px 3px 15px rgb(148, 205, 255);
+}
+
+/* #start { 
+	background-color: #4E9F3D; 
+} 
+
+#stop { 
+	background-color: #3282B8; 
+} 
+
+#reset { 
+	background-color: #D21312; 
+} */
+
+@media screen {
+    
+}
